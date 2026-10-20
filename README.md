@@ -1,10 +1,12 @@
+<p align="center">
+  <img src="fumo_icon.png" alt="Fumo 皮肤图标" width="200">
+</p>
+
 # Fumo 皮肤 / Fumo Skin
 
 简体中文 | [English](README.en.md)
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-
-<img src="fumo_icon.png" alt="Fumo 皮肤图标" width="128">
 
 > 用画 Minecraft 皮肤的方式，画 Fumo 玩偶的贴图。
 
@@ -39,33 +41,46 @@
 
 1. 首页「Fumo 皮肤」卡片 → 新建
 2. 选择「生成模板」或「上传 PNG」
-3. 在绘画模式下绘制；名称含 `Layer` 的立方体是外壳层。需要单独查看某一层时，用顶栏「编辑 → 切换皮肤叠层」
+3. 在绘画模式下绘制；名称含 `Layer` 的立方体是外壳层。需要单独查看某一层时，使用顶栏「编辑」→「切换皮肤叠层」。
 4. 导出：在纹理面板右键 → 另存为 → PNG
 
-## 用到游戏里
+## 在游戏中使用
 
-把导出的 PNG 放进你自己的资源包：`assets/fumo/textures/entities/<你的名字>.png`。
+把导出的 PNG 放进你自己的资源包，路径如下：
+
+```
+assets/fumo/textures/entities/<你的名字>.png
+```
+
 建议用自己的文件名并通过资源包叠加，不要直接覆盖模组 jar 里的原画——那是 reimuu 的美术作品。
 
 ## 纹理精度
 
-默认模板是 128×128（64×64 UV 空间的 2 倍）。256×256 的 PNG 也可以使用：UV 仍按 64×64 解释，原理与 Minecraft 的 HD 皮肤相同。不是 64 整数倍的尺寸可能触发 Blockbench 的分辨率提示。
+默认模板是 128×128（64×64 UV 空间的 2 倍）。256×256 的 PNG 也可以使用：UV 仍按 64×64 解释，原理与 Minecraft 的 HD 皮肤相同。如果尺寸不是 64 的整数倍，可能触发 Blockbench 的分辨率提示。
 
 ## 截图
 
-![在 Blockbench 中使用 Fumo 皮肤](docs/screenshot.png)
+<p align="center">
+  <img src="docs/screenshot.png" alt="在 Blockbench 中使用 Fumo 皮肤" width="700">
+</p>
 
-![空白模板](docs/fumo-template.png)
+<p align="center"><em>在 Blockbench 中绘制 Fumo 贴图。</em></p>
+
+<p align="center">
+  <img src="docs/fumo-template.png" alt="空白模板" width="256">
+</p>
+
+<p align="center"><em>插件生成的逐面彩色空白模板。</em></p>
 
 ## 许可与署名
 
-- **插件**：[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) —— 版权归 hemekewayoshino（2026）所有。
-- **上游作品**：*Fumo-Mcreator*，作者 **KosherKomeiji**（credits: MCreator, reimuu），https://github.com/KosherKomeiji/Fumo-Mcreator ，同为 CC BY-NC-SA 4.0。
+- **插件**：[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) —— 版权所有 (c) 2026 hemekewayoshino。
+- **上游作品**：[Fumo-Mcreator](https://github.com/KosherKomeiji/Fumo-Mcreator)，作者 **KosherKomeiji**（credits: MCreator, reimuu），同为 CC BY-NC-SA 4.0。
 - **修改说明**：上游几何为 Java 源码，本插件将其逆向转换为 Blockbench 预设；分组命名、外壳层 `Layer` 后缀与叠层切换为本插件新增，不属于上游内容。
 - **使用条件**：再分发必须保留上述署名，不得用于商业用途，衍生版本须以同一许可证发布。
 - **美术素材**：本插件不打包任何第三方美术；你自己绘制的贴图版权归你。
 - **图标**：hemekewayoshino，CC BY-NC-SA 4.0，随本插件一同发布。
-- **担保**：本作品按"现状"提供，不附带任何明示或暗示的担保。
+- **担保**：本作品按「现状」提供，不附带任何明示或暗示的担保。
 
 ## 已知限制
 

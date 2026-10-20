@@ -23,7 +23,7 @@
  *
  * 免责声明: 非官方社区工具，与 KosherKomeiji、ZUN / 东方 Project、Blockbench 官方均无关联。
  * Unofficial community tool; not affiliated with KosherKomeiji, ZUN / Touhou Project, or Blockbench.
- * 本作品按"现状"提供，不附带任何明示或暗示的担保。
+ * 本作品按「现状」提供，不附带任何明示或暗示的担保。
  * Provided "as is", without warranties of any kind.
  */
 (function () {
@@ -118,7 +118,7 @@
 		author: 'hemekewayoshino',
 		icon: 'fumo_icon.png',
 		description: T(
-			'非官方工具：用绘制 Minecraft 皮肤的方式绘制 Fumo 玩偶贴图。内置模型模板、逐面彩色模板图，并可像 Minecraft 皮肤一样在顶栏「编辑」菜单中切换皮肤叠层。模型几何基于 KosherKomeiji 的 Fumo 模组 (credits: MCreator, reimuu)，CC BY-NC-SA 4.0，禁止商用。与模组作者、ZUN / 东方 Project、Blockbench 官方均无关联。',
+			'非官方工具：用画 Minecraft 皮肤的方式，绘制 Fumo 玩偶贴图。内置模型模板、逐面彩色模板图，并可像 Minecraft 皮肤一样在顶栏「编辑」菜单中切换皮肤叠层。模型几何基于 KosherKomeiji 的 Fumo 模组 (credits: MCreator, reimuu)，CC BY-NC-SA 4.0，禁止商用。与模组作者、ZUN / 东方 Project、Blockbench 官方均无关联。',
 			'Unofficial tool for painting Fumo plush textures the way you paint Minecraft skins. Bundles the model template, a per-face coloured blank texture, and skin-layer toggling from the top-bar Edit menu, just like a Minecraft skin. Geometry derived from KosherKomeiji\'s Fumo mod (credits: MCreator, reimuu), CC BY-NC-SA 4.0, non-commercial. Not affiliated with the mod author, ZUN / Touhou Project, or Blockbench.'
 		),
 		version: '0.1.0',
@@ -209,7 +209,7 @@
 						{ type: 'h3', text: T('许可与署名', 'License and attribution') },
 						{
 							text: T(
-								'* 本插件以 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 发布：再分发须保留署名、不得商用、演绎版本沿用同一许可\n* 修改说明：几何由上游 Java 源码逆向转换，分组命名、Layer 后缀与叠层切换为本插件新增\n* 不打包任何第三方美术；你绘制出的贴图版权归你\n* 按"现状"提供，不附带任何担保',
+								'* 本插件以 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 发布：再分发须保留署名、不得商用、演绎版本沿用同一许可\n* 修改说明：几何由上游 Java 源码逆向转换，分组命名、Layer 后缀与叠层切换为本插件新增\n* 不打包任何第三方美术；你绘制出的贴图版权归你\n* 按「现状」提供，不附带任何担保',
 								'* Released under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/): keep attribution, no commercial use, derivatives under the same license\n* Changes: geometry reverse-converted from the upstream Java source; group naming, the Layer suffix and layer toggling are added here\n* No third-party artwork is bundled; textures you paint are yours\n* Provided "as is", without warranties of any kind'
 							)
 						},
