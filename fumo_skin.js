@@ -118,8 +118,8 @@
 		author: 'hemekewayoshino',
 		icon: 'fumo_icon.png',
 		description: T(
-			'非官方工具：用绘制 Minecraft 皮肤的方式绘制 Fumo 玩偶贴图。内置模型模板、逐面彩色模板图、皮肤叠层切换。模型几何基于 KosherKomeiji 的 Fumo 模组 (credits: MCreator, reimuu)，CC BY-NC-SA 4.0，禁止商用。与模组作者、ZUN / 东方 Project、Blockbench 官方均无关联。',
-			'Unofficial tool for painting Fumo plush textures the way you paint Minecraft skins. Bundles the model template, a per-face coloured blank texture and skin-layer toggling. Geometry derived from KosherKomeiji\'s Fumo mod (credits: MCreator, reimuu), CC BY-NC-SA 4.0, non-commercial. Not affiliated with the mod author, ZUN / Touhou Project, or Blockbench.'
+			'非官方工具：用绘制 Minecraft 皮肤的方式绘制 Fumo 玩偶贴图。内置模型模板、逐面彩色模板图，并可像 Minecraft 皮肤一样在顶栏「编辑」菜单中切换皮肤叠层。模型几何基于 KosherKomeiji 的 Fumo 模组 (credits: MCreator, reimuu)，CC BY-NC-SA 4.0，禁止商用。与模组作者、ZUN / 东方 Project、Blockbench 官方均无关联。',
+			'Unofficial tool for painting Fumo plush textures the way you paint Minecraft skins. Bundles the model template, a per-face coloured blank texture, and skin-layer toggling from the top-bar Edit menu, just like a Minecraft skin. Geometry derived from KosherKomeiji\'s Fumo mod (credits: MCreator, reimuu), CC BY-NC-SA 4.0, non-commercial. Not affiliated with the mod author, ZUN / Touhou Project, or Blockbench.'
 		),
 		version: '0.1.0',
 		variant: 'desktop',
@@ -152,8 +152,8 @@
 					info: {
 						type: 'info',
 						text: T(
-							'贴图规格：128×128 像素（UV 空间 64×64，1 UV = 2 像素）。外壳层立方体名称带 "Layer"，可用 编辑 → 切换皮肤叠层 显隐。',
-							'Texture size: 128×128 pixels (64×64 UV space, 1 UV unit = 2 pixels). Shell-layer cubes are named with a "Layer" suffix; toggle them via Edit → Toggle Skin Layer.'
+							'贴图规格：128×128 像素（UV 空间 64×64，1 UV = 2 像素）。外壳层立方体名称带 "Layer"，可像 Minecraft 皮肤一样在顶栏「编辑」→「切换皮肤叠层」中显隐。',
+							'Texture size: 128×128 pixels (64×64 UV space, 1 UV unit = 2 pixels). Shell-layer cubes are named with a "Layer" suffix; switch them like a Minecraft skin via Edit → Toggle Skin Layer in the top bar.'
 						)
 					}
 				},
@@ -195,8 +195,8 @@
 						{ type: 'h3', text: T('信息', 'About') },
 						{
 							text: T(
-								'* Fumo 玩偶贴图绘制模板\n* 支持绘画模式直接在模型上上色\n* 编辑菜单提供「切换皮肤叠层」显隐外壳层',
-								'* A painting template for Fumo plush textures\n* Paint directly on the model in Paint mode\n* Edit menu → Toggle Skin Layer shows or hides the shell layer'
+								'* Fumo 玩偶贴图绘制模板\n* 支持绘画模式直接在模型上上色\n* 像 Minecraft 皮肤一样切换皮肤叠层：顶栏「编辑」→「切换皮肤叠层」',
+								'* A painting template for Fumo plush textures\n* Paint directly on the model in Paint mode\n* Switch skin layers like a Minecraft skin: Edit → Toggle Skin Layer in the top bar'
 							)
 						},
 						{ type: 'h3', text: T('模型来源', 'Model source') },

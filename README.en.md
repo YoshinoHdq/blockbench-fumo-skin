@@ -17,7 +17,7 @@ This is an unofficial community tool. It is not affiliated with KosherKomeiji (a
 
 - One-click Fumo model: 12 groups and 14 cubes, with geometry derived from the mod's `ModelFumo`
 - Per-face coloured blank template (128×128 pixels over a 64×64 UV space)
-- **Edit → Toggle Skin Layer** switches the body layer and the outer shell layer for layered painting
+- **Switch skin layers like a Minecraft skin**: choose Edit → Toggle Skin Layer from the top bar to switch between the body and outer shell layers
 - Load your own PNG as the texture
 - Drops you into Paint mode, reusing Blockbench's brushes, palettes and colour picker
 - Follows the Blockbench language: Chinese for `zh` / `zh_tw`, English for everything else
@@ -37,7 +37,7 @@ Note: `min_version` refers to the Blockbench version, not the plugin version. A 
 
 1. Start screen → "Fumo Skin" card → Create
 2. Choose *Generated template* or *Upload PNG*
-3. Paint in Paint mode; cubes whose names contain `Layer` form the shell layer
+3. Paint in Paint mode; cubes whose names contain `Layer` form the shell layer. Use Edit → Toggle Skin Layer in the top bar to isolate a layer
 4. Export: right-click the texture → Save As → PNG
 
 ## Using the result in game
