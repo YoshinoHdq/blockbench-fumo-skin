@@ -4,7 +4,7 @@
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-<img src="docs/fumo_icon.png" alt="Fumo 皮肤图标" width="128">
+<img src="fumo_icon.png" alt="Fumo 皮肤图标" width="128">
 
 > 用画 Minecraft 皮肤的方式，画 Fumo 玩偶的贴图。
 

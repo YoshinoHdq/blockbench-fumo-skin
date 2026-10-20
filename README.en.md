@@ -4,7 +4,7 @@
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-<img src="docs/fumo_icon.png" alt="Fumo Skin icon" width="128">
+<img src="fumo_icon.png" alt="Fumo Skin icon" width="128">
 
 > Paint Fumo plush textures the same way you paint a Minecraft skin.
 
