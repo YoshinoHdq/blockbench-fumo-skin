@@ -61,6 +61,12 @@ assets/fumo/textures/entities/<你的名字>.png
 ## 截图
 
 <p align="center">
+  <img src="docs/example.png" alt="使用 Fumo 皮肤绘制的示例模型" width="700">
+</p>
+
+<p align="center"><em>使用插件完成的示例（虚构角色），贴图直接绘制在模型上。</em></p>
+
+<p align="center">
   <img src="docs/screenshot.png" alt="在 Blockbench 中使用 Fumo 皮肤" width="700">
 </p>
 

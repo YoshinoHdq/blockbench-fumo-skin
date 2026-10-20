@@ -61,6 +61,12 @@ The default template is 128×128 (2× the 64×64 UV space). A 256×256 PNG also 
 ## Screenshot
 
 <p align="center">
+  <img src="docs/example.png" alt="Example model painted with Fumo Skin" width="700">
+</p>
+
+<p align="center"><em>An example painted with the plugin (fictional character), with the texture painted directly on the model.</em></p>
+
+<p align="center">
   <img src="docs/screenshot.png" alt="Fumo Skin in Blockbench" width="700">
 </p>
 
