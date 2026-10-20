@@ -8,6 +8,8 @@
 
 > Paint Fumo plush textures the same way you paint a Minecraft skin.
 
+The model geometry is based on [KosherKomeiji/Fumo-Mcreator](https://github.com/KosherKomeiji/Fumo-Mcreator). See "License and attribution" below.
+
 **Disclaimer**
 This is an unofficial community tool. It is not affiliated with KosherKomeiji (author of the Fumo mod), ZUN / Touhou Project, or Blockbench.
 

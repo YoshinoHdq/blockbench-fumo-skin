@@ -8,6 +8,8 @@
 
 > 用画 Minecraft 皮肤的方式，画 Fumo 玩偶的贴图。
 
+本插件的模型几何基于 [KosherKomeiji/Fumo-Mcreator](https://github.com/KosherKomeiji/Fumo-Mcreator)，详见下方「许可与署名」。
+
 **免责声明**
 本插件是非官方社区工具，与 Fumo 模组作者 KosherKomeiji、东方 Project 权利方 ZUN、以及 Blockbench 官方均无关联。
 

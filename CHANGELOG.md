@@ -13,7 +13,7 @@
 - 界面跟随 Blockbench 语言：简体中文与繁體中文使用中文文案，其余语言使用英文
 - 仅桌面版（`variant: desktop`），最低要求 Blockbench 5.2.2
 - 只使用公开 API，无磁盘、网络与存储访问
-- 模型几何衍生自 KosherKomeiji 的 Fumo-Mcreator（CC BY-NC-SA 4.0，credits: MCreator, reimuu）
+- 模型几何衍生自 KosherKomeiji 的 [Fumo-Mcreator](https://github.com/KosherKomeiji/Fumo-Mcreator)（CC BY-NC-SA 4.0，credits: MCreator, reimuu）
 
 - Adds the `Fumo Skin` ModelFormat: bone rig, Box UV, single texture, centred origin, rotatable cubes
 - New-project dialog with a choice of generated template or uploaded PNG
@@ -24,4 +24,4 @@
 - UI follows the Blockbench language: Simplified and Traditional Chinese use Chinese strings, everything else uses English
 - Desktop only (`variant: desktop`), requires Blockbench 5.2.2 or newer
 - Public API only, no disk, network or storage access
-- Model geometry derived from KosherKomeiji's Fumo-Mcreator (CC BY-NC-SA 4.0, credits: MCreator, reimuu)
+- Model geometry derived from KosherKomeiji's [Fumo-Mcreator](https://github.com/KosherKomeiji/Fumo-Mcreator) (CC BY-NC-SA 4.0, credits: MCreator, reimuu)
