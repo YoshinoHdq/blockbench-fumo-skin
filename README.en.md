@@ -4,6 +4,8 @@
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
+<img src="docs/fumo_icon.png" alt="Fumo Skin icon" width="128">
+
 > Paint Fumo plush textures the same way you paint a Minecraft skin.
 
 **Disclaimer**
@@ -49,6 +51,8 @@ The default template is 128×128 (2× the 64×64 UV space). A 256×256 PNG also 
 
 ## Screenshot
 
+![Fumo Skin in Blockbench](docs/screenshot.png)
+
 ![blank template](docs/fumo-template.png)
 
 ## License and attribution
@@ -58,6 +62,7 @@ The default template is 128×128 (2× the 64×64 UV space). A 256×256 PNG also 
 - **Changes:** the upstream geometry is Java source; this plugin reverse-converts it into a Blockbench preset. Group naming, the `Layer` suffix and the layer-toggle action are added by this plugin and are not part of the upstream work.
 - **Conditions:** redistribution must keep the attribution above, must not be used commercially, and derivative versions must be released under the same license.
 - **Artwork:** this plugin bundles no third-party artwork. Textures you paint are yours.
+- **Icon:** hemekewayoshino, CC BY-NC-SA 4.0, distributed with this plugin.
 - **Warranty:** provided "as is", without warranties of any kind.
 
 ## Known limitations
@@ -66,6 +71,7 @@ The default template is 128×128 (2× the 64×64 UV space). A 256×256 PNG also 
 - Requires Blockbench 5.2.2 or newer
 - Layer toggling relies on cube names containing `Layer`; renaming those cubes breaks it
 - UI language is resolved when the plugin loads; if the labels do not update after switching the Blockbench language, reload the plugin
+- glTF/GLB can be exported for Blender, but groups become nodes or empties rather than bones; this format has no animation mode, so no animation is exported
 - Texture painting only: no mod project export. Output is a PNG plus a `.bbmodel`
 
 ## Changelog

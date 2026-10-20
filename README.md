@@ -4,6 +4,8 @@
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
+<img src="docs/fumo_icon.png" alt="Fumo 皮肤图标" width="128">
+
 > 用画 Minecraft 皮肤的方式，画 Fumo 玩偶的贴图。
 
 **免责声明**
@@ -49,6 +51,8 @@
 
 ## 截图
 
+![在 Blockbench 中使用 Fumo 皮肤](docs/screenshot.png)
+
 ![空白模板](docs/fumo-template.png)
 
 ## 许可与署名
@@ -58,6 +62,7 @@
 - **修改说明**：上游几何为 Java 源码，本插件将其逆向转换为 Blockbench 预设；分组命名、外壳层 `Layer` 后缀与叠层切换为本插件新增，不属于上游内容。
 - **使用条件**：再分发必须保留上述署名，不得用于商业用途，衍生版本须以同一许可证发布。
 - **美术素材**：本插件不打包任何第三方美术；你自己绘制的贴图版权归你。
+- **图标**：hemekewayoshino，CC BY-NC-SA 4.0，随本插件一同发布。
 - **担保**：本作品按"现状"提供，不附带任何明示或暗示的担保。
 
 ## 已知限制
@@ -66,6 +71,7 @@
 - 要求 Blockbench 5.2.2 或更高版本
 - 叠层切换依据「方块名包含 `Layer`」判定，重命名这些方块会导致切换失效
 - 界面语言在插件加载时确定；切换 Blockbench 语言后若文案未更新，重新加载插件即可
+- 可导出 glTF/GLB 给 Blender，但分组只会成为节点或空物体，不会自动变成骨骼；本格式没有动画模式，导出不含动画
 - 只负责画贴图，不导出模组工程；产出是 PNG 与 `.bbmodel`
 
 ## 更新日志

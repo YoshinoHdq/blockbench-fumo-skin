@@ -116,6 +116,7 @@
 	BBPlugin.register(FORMAT_ID, {
 		title: T('Fumo 皮肤', 'Fumo Skin'),
 		author: 'hemekewayoshino',
+		icon: 'fumo_icon.png',
 		description: T(
 			'非官方工具：用绘制 Minecraft 皮肤的方式绘制 Fumo 玩偶贴图。内置模型模板、逐面彩色模板图、皮肤叠层切换。模型几何基于 KosherKomeiji 的 Fumo 模组 (credits: MCreator, reimuu)，CC BY-NC-SA 4.0，禁止商用。与模组作者、ZUN / 东方 Project、Blockbench 官方均无关联。',
 			'Unofficial tool for painting Fumo plush textures the way you paint Minecraft skins. Bundles the model template, a per-face coloured blank texture and skin-layer toggling. Geometry derived from KosherKomeiji\'s Fumo mod (credits: MCreator, reimuu), CC BY-NC-SA 4.0, non-commercial. Not affiliated with the mod author, ZUN / Touhou Project, or Blockbench.'
