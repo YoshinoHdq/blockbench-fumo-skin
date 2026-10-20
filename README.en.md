@@ -25,9 +25,9 @@ This is an unofficial community tool. It is not affiliated with KosherKomeiji (a
 
 ## Installation
 
-1. Download `fumo_skin.js` from the [Releases](../../releases) page
-2. Blockbench → File → Plugins → Load Plugin from File, then pick the file
-3. Blockbench remembers the path and loads it on startup
+1. Download `fumo-skin-0.1.0.zip` from the [Releases](../../releases) page and extract it (or download both `fumo_skin.js` and `fumo_icon.png`)
+2. Blockbench → File → Plugins → Load Plugin from File, then pick `fumo_skin.js`
+3. Keep `fumo_icon.png` next to `fumo_skin.js` so the plugin list can show the icon
 
 Requires Blockbench 5.2.2 or newer. Verified on 5.2.2 (desktop, Windows).
 

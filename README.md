@@ -25,9 +25,9 @@
 
 ## 安装
 
-1. 从 [Releases](../../releases) 下载 `fumo_skin.js`
-2. Blockbench → 文件 → 插件 → 从文件加载插件，选中该文件
-3. Blockbench 会记住路径，并在启动时自动加载
+1. 从 [Releases](../../releases) 下载 `fumo-skin-0.1.0.zip` 并解压（或同时下载 `fumo_skin.js` 与 `fumo_icon.png`）
+2. Blockbench → 文件 → 插件 → 从文件加载插件，选中 `fumo_skin.js`
+3. 保持 `fumo_icon.png` 与 `fumo_skin.js` 在同一目录，插件列表才会显示图标
 
 要求 Blockbench 5.2.2 或更高版本，已在 5.2.2 桌面版（Windows）验证。
 
