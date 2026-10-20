@@ -4,6 +4,7 @@
  * 版权 / Copyright (c) 2026 hemekewayoshino
  * 许可 / License: CC BY-NC-SA 4.0
  *   https://creativecommons.org/licenses/by-nc-sa/4.0/
+ * SPDX-License-Identifier: CC-BY-NC-SA-4.0
  *
  * 模型几何衍生自 / Geometry derived from:
  *   "Fumo-Mcreator" by KosherKomeiji
